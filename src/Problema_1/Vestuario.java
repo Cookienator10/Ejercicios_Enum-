@@ -36,10 +36,11 @@ public enum Vestuario {
     public class Prenda{
         public static void main(String[] args) {
             Vestuario prenda = Vestuario.BLUSA;
-System.out.println(prenda.mostrarDescripcionPrenda());
+            System.out.println(prenda.mostrarDescripcionPrenda());
 
             Vestuario prenda2 = Vestuario.JEAN;
             System.out.println(prenda2.mostrarDescripcionPrenda());
+
             Vestuario prenda3 = Vestuario.CAMISA;
             System.out.println(prenda3.mostrarDescripcionPrenda());
 

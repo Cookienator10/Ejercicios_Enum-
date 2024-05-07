@@ -41,6 +41,7 @@ public enum ServicioPeluqueria {
 
             ServicioPeluqueria servicio2 = ServicioPeluqueria.UÑAS;
             System.out.println(servicio2.mostrarDescripcionServicio());
+
             ServicioPeluqueria servicio3 = ServicioPeluqueria.TINTE;
             System.out.println(servicio3.mostrarDescripcionServicio());
 

@@ -50,10 +50,13 @@ interface Tienda {
 
                 VideoJuegos juego2 = VideoJuegos.ESTRATEGIA;
                 System.out.println(juego2.mostrarPosiciónRanking());
+
                 VideoJuegos juego3 = VideoJuegos.MUSICALES;
                 System.out.println(juego3.mostrarPosiciónRanking());
+
                 VideoJuegos juego4 = VideoJuegos.DEPORTIVOS;
                 System.out.println(juego4.mostrarPosiciónRanking());
+
                 VideoJuegos juego5 = VideoJuegos.SIMULACION;
                 System.out.println(juego5.mostrarPosiciónRanking());
             }
@@ -68,8 +71,10 @@ interface Tienda {
 
                     VideoJuegos Moneda3 = VideoJuegos.MUSICALES;
                     System.out.println(Moneda3.mostrarComprarMonedas());
+
                     VideoJuegos Moneda4 = VideoJuegos.DEPORTIVOS;
                     System.out.println(Moneda4.mostrarComprarMonedas());
+
                     VideoJuegos Moneda5 = VideoJuegos.SIMULACION;
                     System.out.println(Moneda5.mostrarComprarMonedas());
                 }
